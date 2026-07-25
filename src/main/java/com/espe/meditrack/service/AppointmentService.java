@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.Arrays;
 import java.util.Collections;
-
+/**Servicio reactivo que procesa citas médicas usando operadores de Project Reactor. Aplica filter, map y defaultIfEmpty sin bloquear el flujo.*/
 @Service
 public class AppointmentService {
 
