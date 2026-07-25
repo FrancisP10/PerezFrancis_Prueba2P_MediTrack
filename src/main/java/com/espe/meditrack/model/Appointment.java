@@ -8,8 +8,8 @@ import java.util.Objects;
 /**Representa una cita medica.
  La clase es 100% inmutable:
  * Es "final" (no puede extenderse ni sobrescribirse su comportamiento).
- * Se aplica copia defensiva de la lista "notifyEmails" tanto en el constructor (para que nadie pueda mutar el objeto modificando la lista
- que se paso al crearlo) como en el getter (para que nadie pueda mutar el objeto modificando la lista que este devuelve hacia afuera).*/
+ * Se implementa copias defensivas para proteger la lista notifyEmails tanto en el constructor (para que nadie pueda mutar el objeto modificando la lista
+ * que se paso al crearlo) como en el getter (para que nadie pueda mutar el objeto modificando la lista que este devuelve hacia afuera).*/
 public final class Appointment {
 
     private final String id;
