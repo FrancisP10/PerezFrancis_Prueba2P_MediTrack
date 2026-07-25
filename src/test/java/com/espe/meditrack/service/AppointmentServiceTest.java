@@ -8,7 +8,7 @@ import reactor.test.StepVerifier;
 
 import java.util.Arrays;
 import java.util.Collections;
-
+/**Pruebas del flujo reactivo usando StepVerifier. Valida filtros, valores por defecto y errores.*/
 public class AppointmentServiceTest {
 
     @Test

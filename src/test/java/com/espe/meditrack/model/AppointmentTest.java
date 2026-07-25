@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotSame;
-
+/**Pruebas unitarias del modelo Appointment: validan getters y copias defensivas.*/
 public class AppointmentTest {
 
     @Test
