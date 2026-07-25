@@ -9,6 +9,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 /**Expone las citas de forma reactiva. Ninguna firma publica devuelve un tipo bloqueante: nunca List<Appointment>, nunca Appointment "pelado", nunca block().*/
+/**Controlador REST reactivo de citas médicas. Expone endpoints usando Flux y Mono sin operaciones bloqueantes.*/
 @RestController
 public class AppointmentController {
 
